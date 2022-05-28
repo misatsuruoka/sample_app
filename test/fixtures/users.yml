@@ -4,44 +4,28 @@ michael:
   password_digest: <%= User.digest('password') %>
   admin: true
   activated: true
-<<<<<<< HEAD
-  activated_at: <%= Time.zone.now %>
-=======
   activated_at: Time.zone.now
->>>>>>> password-reset
 
 archer:
   name: Sterling Archer
   email: duchess@example.com
   password_digest: <%= User.digest('password') %>
   activated: true
-<<<<<<< HEAD
-  activated_at: <%= Time.zone.now %>
-=======
   activated_at: Time.zone.now
->>>>>>> password-reset
 
 lana:
   name: Sterling Archer
   email: hands@example.gov
   password_digest: <%= User.digest('password') %>
   activated: true
-<<<<<<< HEAD
-  activated_at: <%= Time.zone.now %>
-=======
   activated_at: Time.zone.now
->>>>>>> password-reset
 
 malory:
   name: Malory Archer
   email: boss@example.gov
   password_digest: <%= User.digest('password') %>
   activated: true
-<<<<<<< HEAD
-  activated_at: <%= Time.zone.now %>
-=======
   activated_at: Time.zone.now
->>>>>>> password-reset
 
 <% 30.times do |n| %>
 user_<%= n %>:
@@ -49,9 +33,5 @@ user_<%= n %>:
   email: <%= "user-#{n}@example.com" %>
   password_digest: <%= User.digest('password') %>
   activated: true
-<<<<<<< HEAD
-  activated_at: <%= Time.zone.now %>
-=======
   activated_at: Time.zone.now
->>>>>>> password-reset
 <% end %>
